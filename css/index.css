@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+.navbar {
+    margin: 3% 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbo {
+    margin-top: 4%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +125,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes:nth-child(1) {
+    background: teal;
+}
+
+.box:nth-child(2) {
+    background: teal;
 }
 
 .bottom-content {
