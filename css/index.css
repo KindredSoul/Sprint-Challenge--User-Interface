@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+/* ==============Header CSS=============== */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -85,6 +86,8 @@ nav {
 .jumbo {
     margin-top: 4%;
 }
+
+/* ================Main Page CSS================== */
 
 .top-content {
     display: flex;
@@ -127,12 +130,44 @@ nav {
     justify-content: center;
 }
 
-.boxes:nth-child(1) {
+.one {
     background: teal;
 }
 
-.box:nth-child(2) {
-    background: teal;
+.two {
+    background: gold;
+}
+
+.three {
+    background: cadetblue;
+}
+
+.four {
+    background: crimson;
+}
+
+.five {
+    background: forestgreen;
+}
+
+.six {
+    background: darkorchid;
+}
+
+.box.seven {
+    background: hotpink;
+}
+
+.eight {
+    background: hotpink;
+}
+
+.nine {
+    background: indigo;
+}
+
+.ten {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -149,6 +184,11 @@ nav {
     padding-right: 0;
 }
 
+/* =============About Page CSS=============== */
+
+
+
+/* ==============Footer CSS================= */
 footer {
     width: 100%;
     background: black;
