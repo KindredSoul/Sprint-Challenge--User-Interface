@@ -138,8 +138,8 @@ header nav a {
     justify-content: center;
 }
 
-.one {
-    background: teal;
+.middle-content .boxes .box:nth-child(1) {
+background:white;
 }
 
 .two {
